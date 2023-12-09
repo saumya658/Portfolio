@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Bree+Serif&family=Lobster&family=Poppins&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        /* shortcut m0 */
+        padding: 0;
+        /* shortcut p0 */
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "poppins", sans-serif;
+      }
+      nav {
+        border: 0px solid yellow;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        border: 0px solid green;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.02rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        border: 0px solid red;
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0px;
+        align-items: center;
+      }
+      .firstsection > div {
+        background-color: none;
+        width: 30%;
+      }
+      .leftsection {
+        border: 0px solid green;
+        background-color: none;
+        font-size: 2.8rem;
+      }
+      .leftsection .buttons {
+        padding: 50px 0px;
+      }
+      .leftsection .bt {
+        padding: 12px;
+        background-color: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightsection {
+        border: 0px solid green;
+        background-color: none;
+      }
+      .rightsection img {
+        width: 80%;
+        margin: 50px 0px;
+      }
+      .color {
+        color: rgb(170, 107, 228);
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      .secondsection {
+        border: 0px solid red;
+        max-width: 80vw;
+        margin: auto;
+        height: 600px;
+      }
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 20px;
+      }
+      .secondsection h1 {
+        font-size: 1.8rem;
+      }
+      .text-grey {
+        color: grey;
+      }
+      .secondsection .box {
+        border: 0px solid yellow;
+        background: white;
+        width: 77vw;
+        height: 2px;
+        margin: 60px 0px;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 110px;
+      }
+
+      .img-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 80px;
+        width: 100px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 90px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+      }
+
+      footer {
+        background: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 160px;
+        justify-content: space-evenly;
+      }
+      .footer > div {
+        width: 223px;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      footer .footer-rights {
+        border: 0px solid green;
+        text-align: center;
+        color: grey;
+        padding: 50px 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Saumya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Project</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, my name is <span class="color">Saumya</span>
+          <div>And I am a passoniate</div>
+          <!-- Element to contain animated typing -->
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="bt">
+              <a
+                href="https://drive.google.com/file/d/1L8bwAWqFJdjmrcZj2dmVq5fzVqqXZ7Vy/view?usp=sharing"
+                style="text-decoration: none; color: white"
+                >Download Resume</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img
+            src="software-hire-developers-hd-png-download.png"
+            alt="software-hire-developers-hd-png-download.png"
+          />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondsection">
+        <span class="text-grey">What i have done so far</span>
+        <h1>Work experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img
+              class="img-top"
+              src="./png_images/software-developer.png"
+              alt=""
+            />
+            <div class="vertical-title">Html Developer</div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./png_images/css.jpg" alt="" />
+            <div class="vertical-title">Css Developer</div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./png_images/javascript.jpg" alt="" />
+            <div class="vertical-title">Javascript Developer</div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./png_images/nodejs.jpg" alt="" />
+            <div class="vertical-title">CPP with DSA</div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./png_images/react.png" alt="" />
+            <div class="vertical-title">MySQL</div>
+            <div class="vertical-desc"></div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="./png_images/web.jpg" alt="" />
+            <div class="vertical-title">Web Developer</div>
+            <div class="vertical-desc"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first" style="border: 0px solid yellow">
+          <h3>Saumya's portfolio developer</h3>
+        </div>
+        <div class="footer-second" style="border: 0px solid yellow">
+          <ul>
+            <li>Blog</li>
+            <li>Community</li>
+            <li>Ideas</li>
+            <li>Developers</li>
+          </ul>
+        </div>
+        <div class="footer-third" style="border: 0px solid yellow">
+          <ul>
+            <li>Team</li>
+            <li>About us</li>
+            <li>Media</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright &#169; Saumyaportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Software Developer"],
+        typeSpeed: 50,
+        backSpeed: 50,
+        backDelay: 500,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
